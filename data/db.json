@@ -1,0 +1,965 @@
+{
+  "users": [
+    {
+      "id": "usr_a5af307f6c8cd382ab01",
+      "name": "Admin Vaultline",
+      "email": "admin@vaultline.local",
+      "passwordHash": "scrypt$66969ed4b644d575b24735ecd18babd1$d8f32dece2270a62acad8f7c859059b6fdfadcad6412293743b497f5373d5156d0d58346687381d34cefda4cbd966eb32b2e4188fd23821d59796d8537e51ec9",
+      "role": "admin",
+      "status": "blocked",
+      "avatar": "AV",
+      "bio": "Platform owner and security reviewer.",
+      "quotaBytes": 5368709120,
+      "twoFactorEnabled": false,
+      "twoFactorSecret": "2564fc7304126777a231c350",
+      "followers": [],
+      "following": [],
+      "createdAt": "2026-06-04T08:28:13.918Z",
+      "failedLoginCount": 0,
+      "lockUntil": null
+    },
+    {
+      "id": "usr_adc4020a4255e79ecf18",
+      "name": "Demo User",
+      "email": "demo@vaultline.local",
+      "passwordHash": "scrypt$9acd0d5918bdff24ed3fb4807b40b9fc$270e7c75e604a8b3c92919e15617d354d1551bada443b85ccb0692d2b1d37d6b1dc8c9f5a5da0db64607554c62e86a0603d43af135b5dffe591f046430c386e5",
+      "role": "user",
+      "status": "active",
+      "avatar": "DU",
+      "bio": "Keeps documents, galleries and shared collections in one calm place.",
+      "quotaBytes": 2147483648,
+      "twoFactorEnabled": false,
+      "twoFactorSecret": "5333538258ad793b805df132",
+      "followers": [
+        "usr_a5af307f6c8cd382ab01"
+      ],
+      "following": [],
+      "createdAt": "2026-06-04T08:28:13.978Z"
+    },
+    {
+      "id": "usr_21092af375bf5f94da59",
+      "name": "Максим",
+      "email": "maxdsukamak@gmail.com",
+      "passwordHash": "scrypt$444cb41b54f9983ed71e1c865cf6a141$c1bc73218e211f4cbdaf64c5de2c0de4c216cf148231472f15658b620cc4c84cf8fac55ab1f3db5840cd272f9d072e7c166ebabffec762a6ceaf7a1ddea2ca16",
+      "role": "user",
+      "status": "active",
+      "avatar": "М",
+      "bio": "New Vaultline member.",
+      "quotaBytes": 2147483648,
+      "twoFactorEnabled": false,
+      "twoFactorSecret": "b37548e076070104aeb9ea26",
+      "followers": [],
+      "following": [],
+      "emailVerifiedAt": null,
+      "createdAt": "2026-06-04T12:12:09.850Z"
+    },
+    {
+      "id": "usr_a68163faac79c2e967b7",
+      "name": "марка",
+      "email": "ukamakclip@gmail.com",
+      "passwordHash": "scrypt$48c2cf7e043d600d6431b16390efdc1e$9b9ab06f7818e2797cc5e7f18dd1bf2edde5c771f1b6997a7a7cfb4b788ff6b249ef73ae0777b1ddd7e5a237dfa72fc944aae11dda976458d79bb484918edd21",
+      "role": "user",
+      "status": "active",
+      "avatar": "М",
+      "bio": "New Vaultline member.",
+      "quotaBytes": 2147483648,
+      "twoFactorEnabled": false,
+      "twoFactorSecret": "7607b593b0c7c212797e9977",
+      "followers": [],
+      "following": [],
+      "emailVerifiedAt": null,
+      "createdAt": "2026-06-04T12:14:19.443Z"
+    }
+  ],
+  "files": [
+    {
+      "id": "fil_82c920950c683f1b8dbe",
+      "ownerId": "usr_a5af307f6c8cd382ab01",
+      "name": "restore-check.txt",
+      "mime": "text/plain",
+      "size": 13,
+      "storageName": "fil_82c920950c683f1b8dbe.txt",
+      "path": "C:\\Users\\maxds\\Documents\\Codex\\2026-06-04\\files-mentioned-by-the-user-txt\\outputs\\vaultline\\storage\\fil_82c920950c683f1b8dbe.txt",
+      "folder": "TrashTest",
+      "tags": [
+        "restore"
+      ],
+      "visibility": "link",
+      "sharedWith": [],
+      "comments": [],
+      "reactions": [],
+      "createdAt": "2026-06-04T08:39:58.445Z",
+      "updatedAt": "2026-06-04T08:39:58.445Z",
+      "deletedAt": null
+    },
+    {
+      "id": "fil_130de8e582b1787d7c64",
+      "ownerId": "usr_a5af307f6c8cd382ab01",
+      "name": "restore-check.txt",
+      "mime": "text/plain",
+      "size": 13,
+      "storageName": "fil_130de8e582b1787d7c64.txt",
+      "path": "C:\\Users\\maxds\\Documents\\Codex\\2026-06-04\\files-mentioned-by-the-user-txt\\outputs\\vaultline\\storage\\fil_130de8e582b1787d7c64.txt",
+      "folder": "TrashTest",
+      "tags": [
+        "restore"
+      ],
+      "visibility": "private",
+      "sharedWith": [],
+      "comments": [],
+      "reactions": [],
+      "createdAt": "2026-06-04T08:38:14.765Z",
+      "updatedAt": "2026-06-04T08:38:14.765Z",
+      "deletedAt": "2026-06-04T08:38:14.768Z"
+    },
+    {
+      "id": "fil_85a28bf0e50fc8b97616",
+      "ownerId": "usr_a5af307f6c8cd382ab01",
+      "name": "smoke.txt",
+      "mime": "text/plain",
+      "size": 26,
+      "storageName": "fil_85a28bf0e50fc8b97616.txt",
+      "path": "C:\\Users\\maxds\\Documents\\Codex\\2026-06-04\\files-mentioned-by-the-user-txt\\outputs\\vaultline\\storage\\fil_85a28bf0e50fc8b97616.txt",
+      "folder": "Smoke",
+      "tags": [
+        "smoke",
+        "test"
+      ],
+      "visibility": "link",
+      "sharedWith": [],
+      "comments": [],
+      "reactions": [],
+      "createdAt": "2026-06-04T08:30:17.097Z",
+      "updatedAt": "2026-06-04T08:30:17.097Z",
+      "deletedAt": "2026-06-04T09:50:55.185Z"
+    }
+  ],
+  "groups": [
+    {
+      "id": "grp_235c2f325f70687c8f2b",
+      "name": "Private Design Space",
+      "description": "Shared workspace for moodboards, briefs and reviewed assets.",
+      "ownerId": "usr_a5af307f6c8cd382ab01",
+      "visibility": "private",
+      "members": [
+        "usr_a5af307f6c8cd382ab01",
+        "usr_adc4020a4255e79ecf18"
+      ],
+      "createdAt": "2026-06-04T08:28:13.978Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_630e3741faa74222506c",
+      "fromId": "usr_a5af307f6c8cd382ab01",
+      "toId": "usr_adc4020a4255e79ecf18",
+      "body": "Welcome to Vaultline. Upload a few files and try a signed link.",
+      "createdAt": "2026-06-04T08:28:13.978Z",
+      "readAt": null
+    }
+  ],
+  "notifications": [
+    {
+      "id": "ntf_4ca216395aebb8d5577e",
+      "userId": "usr_adc4020a4255e79ecf18",
+      "body": "Admin Vaultline invited you to Private Design Space.",
+      "readAt": null,
+      "createdAt": "2026-06-04T08:28:13.978Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act_c22007e6cd73677c5dd9",
+      "actorId": "usr_a68163faac79c2e967b7",
+      "type": "user_registered",
+      "text": "joined Vaultline",
+      "targetType": "user",
+      "targetId": "usr_a68163faac79c2e967b7",
+      "visibility": "public",
+      "createdAt": "2026-06-04T12:14:19.443Z"
+    },
+    {
+      "id": "act_fd1389f0432fc66b8e17",
+      "actorId": "usr_21092af375bf5f94da59",
+      "type": "user_registered",
+      "text": "joined Vaultline",
+      "targetType": "user",
+      "targetId": "usr_21092af375bf5f94da59",
+      "visibility": "public",
+      "createdAt": "2026-06-04T12:12:09.850Z"
+    },
+    {
+      "id": "act_b798a1f0540bfcb37119",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_deleted",
+      "text": "moved smoke.txt to trash",
+      "targetType": "file",
+      "targetId": "fil_85a28bf0e50fc8b97616",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:50:55.185Z"
+    },
+    {
+      "id": "act_e673d37b5a4afb5c35eb",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to smoke.txt",
+      "targetType": "file",
+      "targetId": "fil_85a28bf0e50fc8b97616",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:50:48.105Z"
+    },
+    {
+      "id": "act_9451ca58eeb50c9a8214",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to smoke.txt",
+      "targetType": "file",
+      "targetId": "fil_85a28bf0e50fc8b97616",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:50:47.134Z"
+    },
+    {
+      "id": "act_caa297441ca84b5beb0a",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to smoke.txt",
+      "targetType": "file",
+      "targetId": "fil_85a28bf0e50fc8b97616",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:50:38.084Z"
+    },
+    {
+      "id": "act_47e03b794b8a7ace0943",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:50:37.257Z"
+    },
+    {
+      "id": "act_d283a7ca853163ee2895",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to smoke.txt",
+      "targetType": "file",
+      "targetId": "fil_85a28bf0e50fc8b97616",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:50:36.491Z"
+    },
+    {
+      "id": "act_eb05e20359c294164ca8",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to smoke.txt",
+      "targetType": "file",
+      "targetId": "fil_85a28bf0e50fc8b97616",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:50:36.117Z"
+    },
+    {
+      "id": "act_f2ea19255cf4a4e4a109",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:50:34.515Z"
+    },
+    {
+      "id": "act_53fa8b81952831c669d9",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to smoke.txt",
+      "targetType": "file",
+      "targetId": "fil_85a28bf0e50fc8b97616",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:50:33.080Z"
+    },
+    {
+      "id": "act_a80bda986e12a522e2f9",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_shared",
+      "text": "created a protected link for restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "public",
+      "createdAt": "2026-06-04T09:19:12.139Z"
+    },
+    {
+      "id": "act_bca306fc190090f1d120",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:18:56.756Z"
+    },
+    {
+      "id": "act_7c0198bb2a85e7510adb",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:18:56.118Z"
+    },
+    {
+      "id": "act_fce95977b494f841c8bf",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:18:55.900Z"
+    },
+    {
+      "id": "act_8473f3ed86b3cc2bf13c",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:18:55.709Z"
+    },
+    {
+      "id": "act_7469cb7947f54b41ca3c",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:18:55.485Z"
+    },
+    {
+      "id": "act_94e7ec0887d984b11470",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:18:55.217Z"
+    },
+    {
+      "id": "act_cbf0806227675175e9c9",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:18:54.902Z"
+    },
+    {
+      "id": "act_aa0dbf66eaf11d9273af",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:18:54.419Z"
+    },
+    {
+      "id": "act_6e5e8f4231db2d9919f1",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:18:53.929Z"
+    },
+    {
+      "id": "act_336f9bbb9b412812a8ae",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:18:52.558Z"
+    },
+    {
+      "id": "act_8ce5877d8e369dfcf40f",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:18:52.115Z"
+    },
+    {
+      "id": "act_fc25ebfb7a6b311c9d5c",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:18:51.622Z"
+    },
+    {
+      "id": "act_c70e95bb89b2023e3698",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:18:51.130Z"
+    },
+    {
+      "id": "act_aa5513b4514f4e471289",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T09:18:49.827Z"
+    },
+    {
+      "id": "act_3946a0a2b68c1ab8b27c",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to smoke.txt",
+      "targetType": "file",
+      "targetId": "fil_85a28bf0e50fc8b97616",
+      "visibility": "private",
+      "createdAt": "2026-06-04T08:45:12.345Z"
+    },
+    {
+      "id": "act_2fa8f096461ffe3668ed",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_reacted",
+      "text": "reacted to smoke.txt",
+      "targetType": "file",
+      "targetId": "fil_85a28bf0e50fc8b97616",
+      "visibility": "private",
+      "createdAt": "2026-06-04T08:45:11.812Z"
+    },
+    {
+      "id": "act_2d21e276b7a5570fba19",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_deleted",
+      "text": "moved restore-check.txt to trash",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T08:39:58.447Z"
+    },
+    {
+      "id": "act_e6ab1ef7c374069bf513",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_uploaded",
+      "text": "uploaded restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_82c920950c683f1b8dbe",
+      "visibility": "private",
+      "createdAt": "2026-06-04T08:39:58.445Z"
+    },
+    {
+      "id": "act_095be0ed47d0f24c9dcb",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_deleted",
+      "text": "moved restore-check.txt to trash",
+      "targetType": "file",
+      "targetId": "fil_130de8e582b1787d7c64",
+      "visibility": "private",
+      "createdAt": "2026-06-04T08:38:14.768Z"
+    },
+    {
+      "id": "act_50772b05115a9fd855e7",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_uploaded",
+      "text": "uploaded restore-check.txt",
+      "targetType": "file",
+      "targetId": "fil_130de8e582b1787d7c64",
+      "visibility": "private",
+      "createdAt": "2026-06-04T08:38:14.765Z"
+    },
+    {
+      "id": "act_7bcb2fe74a63c3ad69c8",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_shared",
+      "text": "created a protected link for smoke.txt",
+      "targetType": "file",
+      "targetId": "fil_85a28bf0e50fc8b97616",
+      "visibility": "public",
+      "createdAt": "2026-06-04T08:30:17.100Z"
+    },
+    {
+      "id": "act_3f81aea5a7c46e38a530",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "file_uploaded",
+      "text": "uploaded smoke.txt",
+      "targetType": "file",
+      "targetId": "fil_85a28bf0e50fc8b97616",
+      "visibility": "private",
+      "createdAt": "2026-06-04T08:30:17.097Z"
+    },
+    {
+      "id": "act_2ed487e264cd1b87575f",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "type": "workspace_created",
+      "text": "created a private workspace",
+      "targetId": "grp_235c2f325f70687c8f2b",
+      "targetType": "group",
+      "visibility": "public",
+      "createdAt": "2026-06-04T08:28:13.978Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "ses_fb810fb35627598ce974",
+      "tokenHash": "63c29a9b1a6530cb3a2b02681a532b393dede630153852980c742bb4e00ab54f",
+      "csrfToken": "8c58bb257c0fea81198e1c5d1fd8d0f27cb71d1f34fffe53",
+      "userId": "usr_a5af307f6c8cd382ab01",
+      "expiresAt": "2026-06-11T09:14:43.822Z",
+      "createdAt": "2026-06-04T09:14:43.822Z"
+    },
+    {
+      "id": "ses_a4bd2cd53dcbd67543d1",
+      "tokenHash": "25e030a6ac928f952ad0e7723e3d7702c4674052c276f262fac76b93679d7c15",
+      "csrfToken": "490b9baf1e76473528e7bb27858137476537769ed0299f01",
+      "userId": "usr_a5af307f6c8cd382ab01",
+      "expiresAt": "2026-06-11T09:50:12.717Z",
+      "createdAt": "2026-06-04T09:50:12.717Z"
+    },
+    {
+      "id": "ses_424930d689d17eed96f2",
+      "tokenHash": "1b5de170080ebafddda3f21c6e7ef9bc3019d648a3060332ce4d216b8c0583a4",
+      "csrfToken": "b19158b17d80051c793e9994b05ec47aa0ecfbb40e829b45",
+      "userId": "usr_a5af307f6c8cd382ab01",
+      "expiresAt": "2026-06-11T09:50:15.418Z",
+      "createdAt": "2026-06-04T09:50:15.418Z"
+    },
+    {
+      "id": "ses_11f5d77cd2a1dbb9960b",
+      "tokenHash": "b3511f0d41899605d87ac43c9aeb727c1011a728b30846624ea9abdd0c94e82a",
+      "csrfToken": "7b83a35178ed3956f5c7752a2ac3c04d89928369977104b6",
+      "userId": "usr_a5af307f6c8cd382ab01",
+      "expiresAt": "2026-06-11T09:50:39.171Z",
+      "createdAt": "2026-06-04T09:50:39.171Z"
+    },
+    {
+      "id": "ses_621324ad170776439651",
+      "tokenHash": "a74df66901cbb0e77fcb2204d6fd79042e2a871c4d259355b271119a550957e8",
+      "csrfToken": "c011a7cf0dcc198bb75dd85c7a0d037b06f2ea3e2efdbb6d",
+      "userId": "usr_a5af307f6c8cd382ab01",
+      "expiresAt": "2026-06-11T10:58:53.062Z",
+      "createdAt": "2026-06-04T10:58:53.062Z"
+    }
+  ],
+  "signedLinks": [],
+  "auditLogs": [
+    {
+      "id": "log_4316162ac86b95c71f0d",
+      "actorId": null,
+      "action": "auth.email_code_sent",
+      "meta": {
+        "email": "slizovskijmaksim1@gmail.com",
+        "ip": "45.67.20.109"
+      },
+      "createdAt": "2026-06-04T14:08:17.070Z"
+    },
+    {
+      "id": "log_d375263fe3e974f2bf65",
+      "actorId": null,
+      "action": "auth.email_code_sent",
+      "meta": {
+        "email": "slizovskijmaksim1@gmail.com",
+        "ip": "45.67.20.109"
+      },
+      "createdAt": "2026-06-04T14:07:43.426Z"
+    },
+    {
+      "id": "log_538048245b071dd20154",
+      "actorId": null,
+      "action": "auth.email_code_sent",
+      "meta": {
+        "email": "pariahtope@outlook.com",
+        "ip": "45.67.20.109"
+      },
+      "createdAt": "2026-06-04T13:32:05.249Z"
+    },
+    {
+      "id": "log_28b454d5b09e69f8d0f6",
+      "actorId": "usr_a68163faac79c2e967b7",
+      "action": "auth.logout",
+      "meta": {},
+      "createdAt": "2026-06-04T12:16:25.731Z"
+    },
+    {
+      "id": "log_405afe150772dd85b7d1",
+      "actorId": "usr_a68163faac79c2e967b7",
+      "action": "auth.login",
+      "meta": {
+        "email": "ukamakclip@gmail.com"
+      },
+      "createdAt": "2026-06-04T12:14:19.443Z"
+    },
+    {
+      "id": "log_1ff82ab4c03d4ecea379",
+      "actorId": "usr_21092af375bf5f94da59",
+      "action": "auth.logout",
+      "meta": {},
+      "createdAt": "2026-06-04T12:13:55.076Z"
+    },
+    {
+      "id": "log_78ca8acdb3400fce5df9",
+      "actorId": "usr_21092af375bf5f94da59",
+      "action": "auth.login",
+      "meta": {
+        "email": "maxdsukamak@gmail.com"
+      },
+      "createdAt": "2026-06-04T12:12:09.850Z"
+    },
+    {
+      "id": "log_437313c9f84290a3a77e",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "admin.user_updated",
+      "meta": {
+        "targetId": "usr_a5af307f6c8cd382ab01",
+        "status": "blocked",
+        "role": "admin"
+      },
+      "createdAt": "2026-06-04T11:28:07.422Z"
+    },
+    {
+      "id": "log_1c26ba2a2174b01c11c0",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.login",
+      "meta": {
+        "email": "admin@vaultline.local"
+      },
+      "createdAt": "2026-06-04T10:58:53.062Z"
+    },
+    {
+      "id": "log_6c4b98c5623f952f8a7f",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "settings.2fa",
+      "meta": {
+        "enabled": false
+      },
+      "createdAt": "2026-06-04T09:51:17.085Z"
+    },
+    {
+      "id": "log_5562083046e2f9cb0d0b",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "settings.2fa",
+      "meta": {
+        "enabled": true
+      },
+      "createdAt": "2026-06-04T09:51:13.345Z"
+    },
+    {
+      "id": "log_f1a669879fdd1960788e",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "file.deleted",
+      "meta": {
+        "fileId": "fil_85a28bf0e50fc8b97616"
+      },
+      "createdAt": "2026-06-04T09:50:55.185Z"
+    },
+    {
+      "id": "log_a6e27b5b5c6650a2cae0",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.login",
+      "meta": {
+        "email": "admin@vaultline.local"
+      },
+      "createdAt": "2026-06-04T09:50:39.171Z"
+    },
+    {
+      "id": "log_afaa205dd94fbedd61f6",
+      "actorId": null,
+      "action": "security.host_rejected",
+      "meta": {
+        "host": "evil.example",
+        "ip": "127.0.0.1"
+      },
+      "createdAt": "2026-06-04T09:50:39.089Z"
+    },
+    {
+      "id": "log_2ec68ecb2cc2fab792a7",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.login",
+      "meta": {
+        "email": "admin@vaultline.local"
+      },
+      "createdAt": "2026-06-04T09:50:15.418Z"
+    },
+    {
+      "id": "log_97b1959d27c643c9222d",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.login",
+      "meta": {
+        "email": "admin@vaultline.local"
+      },
+      "createdAt": "2026-06-04T09:50:12.717Z"
+    },
+    {
+      "id": "log_7b59ffa63458e0787b31",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.logout",
+      "meta": {},
+      "createdAt": "2026-06-04T09:20:11.032Z"
+    },
+    {
+      "id": "log_267b6e5a0f7abb9eb716",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "file.signed_link",
+      "meta": {
+        "fileId": "fil_82c920950c683f1b8dbe"
+      },
+      "createdAt": "2026-06-04T09:19:12.139Z"
+    },
+    {
+      "id": "log_2bb21e505123fd3ad834",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.login",
+      "meta": {
+        "email": "admin@vaultline.local"
+      },
+      "createdAt": "2026-06-04T09:18:46.876Z"
+    },
+    {
+      "id": "log_0fac0b139b169c47dc54",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.login",
+      "meta": {
+        "email": "admin@vaultline.local"
+      },
+      "createdAt": "2026-06-04T09:14:43.822Z"
+    },
+    {
+      "id": "log_cca4ee121d951909e180",
+      "actorId": null,
+      "action": "security.blocked_register",
+      "meta": {
+        "reason": "Bot trap field was filled",
+        "ip": "127.0.0.1"
+      },
+      "createdAt": "2026-06-04T09:12:59.019Z"
+    },
+    {
+      "id": "log_93b9f8abb8e9a2df3961",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.logout",
+      "meta": {},
+      "createdAt": "2026-06-04T09:12:47.379Z"
+    },
+    {
+      "id": "log_b43ea1658115b56acff9",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.login",
+      "meta": {
+        "email": "admin@vaultline.local"
+      },
+      "createdAt": "2026-06-04T09:12:47.319Z"
+    },
+    {
+      "id": "log_ec13b73be4d99d0cbda9",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.logout",
+      "meta": {},
+      "createdAt": "2026-06-04T08:47:27.568Z"
+    },
+    {
+      "id": "log_1fa94f207b72aff99dfa",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.login",
+      "meta": {
+        "email": "admin@vaultline.local"
+      },
+      "createdAt": "2026-06-04T08:47:26.452Z"
+    },
+    {
+      "id": "log_26c99015c61124a4c259",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.logout",
+      "meta": {},
+      "createdAt": "2026-06-04T08:47:25.449Z"
+    },
+    {
+      "id": "log_8d13e6fb65f1f8e4ef28",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.login",
+      "meta": {
+        "email": "admin@vaultline.local"
+      },
+      "createdAt": "2026-06-04T08:47:24.826Z"
+    },
+    {
+      "id": "log_b0a434e6e486862a8f3c",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.logout",
+      "meta": {},
+      "createdAt": "2026-06-04T08:47:17.007Z"
+    },
+    {
+      "id": "log_fc2fadeb434004272b02",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.login",
+      "meta": {
+        "email": "admin@vaultline.local"
+      },
+      "createdAt": "2026-06-04T08:46:19.313Z"
+    },
+    {
+      "id": "log_c25daf04d1df88690fc5",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.logout",
+      "meta": {},
+      "createdAt": "2026-06-04T08:46:11.169Z"
+    },
+    {
+      "id": "log_1b52d363a50cca444267",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.login",
+      "meta": {
+        "email": "admin@vaultline.local"
+      },
+      "createdAt": "2026-06-04T08:42:17.874Z"
+    },
+    {
+      "id": "log_c2ec84b87254bfe7e1a6",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "file.restored",
+      "meta": {
+        "fileId": "fil_82c920950c683f1b8dbe"
+      },
+      "createdAt": "2026-06-04T08:39:58.451Z"
+    },
+    {
+      "id": "log_6ff4f4293d6e19db6c6f",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "file.deleted",
+      "meta": {
+        "fileId": "fil_82c920950c683f1b8dbe"
+      },
+      "createdAt": "2026-06-04T08:39:58.447Z"
+    },
+    {
+      "id": "log_7a2dde730df0d20dbdc6",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "file.uploaded",
+      "meta": {
+        "fileId": "fil_82c920950c683f1b8dbe",
+        "name": "restore-check.txt",
+        "size": 13
+      },
+      "createdAt": "2026-06-04T08:39:58.445Z"
+    },
+    {
+      "id": "log_b706e95b13f7d7c17625",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.login",
+      "meta": {
+        "email": "admin@vaultline.local"
+      },
+      "createdAt": "2026-06-04T08:39:58.431Z"
+    },
+    {
+      "id": "log_90fe44a962b15d661ef0",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "file.deleted",
+      "meta": {
+        "fileId": "fil_130de8e582b1787d7c64"
+      },
+      "createdAt": "2026-06-04T08:38:14.768Z"
+    },
+    {
+      "id": "log_f1934c16f974e105f50d",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "file.uploaded",
+      "meta": {
+        "fileId": "fil_130de8e582b1787d7c64",
+        "name": "restore-check.txt",
+        "size": 13
+      },
+      "createdAt": "2026-06-04T08:38:14.765Z"
+    },
+    {
+      "id": "log_0eefcc6a3aca3ad9166f",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.login",
+      "meta": {
+        "email": "admin@vaultline.local"
+      },
+      "createdAt": "2026-06-04T08:38:14.752Z"
+    },
+    {
+      "id": "log_482d45216158f1173b64",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "file.signed_link",
+      "meta": {
+        "fileId": "fil_85a28bf0e50fc8b97616"
+      },
+      "createdAt": "2026-06-04T08:30:17.100Z"
+    },
+    {
+      "id": "log_23049152b0b8579cbac4",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "file.uploaded",
+      "meta": {
+        "fileId": "fil_85a28bf0e50fc8b97616",
+        "name": "smoke.txt",
+        "size": 26
+      },
+      "createdAt": "2026-06-04T08:30:17.097Z"
+    },
+    {
+      "id": "log_11e9d255204df0606273",
+      "actorId": "usr_a5af307f6c8cd382ab01",
+      "action": "auth.login",
+      "meta": {
+        "email": "admin@vaultline.local"
+      },
+      "createdAt": "2026-06-04T08:30:17.081Z"
+    }
+  ],
+  "reports": [],
+  "settings": {
+    "appName": "Vaultline",
+    "domain": "ukrainecommunity.pp.ua",
+    "smtpHost": "",
+    "backups": "daily local snapshot",
+    "defaultQuotaBytes": 2147483648,
+    "maxUploadBytes": 26214400
+  },
+  "stories": [],
+  "emailCodes": [
+    {
+      "id": "emc_c696c28a30ffcb1cb139",
+      "email": "slizovskijmaksim1@gmail.com",
+      "purpose": "register",
+      "codeHash": "9b9c165c93972acddc1924592e79ca39a67ce1e194c4cd0e8ec161b20923c809",
+      "attempts": 0,
+      "expiresAt": "2026-06-04T14:17:42.892Z",
+      "createdAt": "2026-06-04T14:07:42.892Z",
+      "usedAt": null
+    },
+    {
+      "id": "emc_5e1acfa8fffd3578f4ce",
+      "email": "slizovskijmaksim1@gmail.com",
+      "purpose": "register",
+      "codeHash": "4b2cc5f3a0ac9a6426ef54ff8541c048b803e9316d26454a0d7163699899e0b9",
+      "attempts": 0,
+      "expiresAt": "2026-06-04T14:18:16.500Z",
+      "createdAt": "2026-06-04T14:08:16.500Z",
+      "usedAt": null
+    }
+  ]
+}

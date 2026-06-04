@@ -1,0 +1,21 @@
+{
+  "name": "vaultline",
+  "version": "0.1.0",
+  "description": "Secure social file vault prototype with auth, admin, feed and file manager.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "file-storage",
+    "social-network",
+    "secure-vault",
+    "prototype"
+  ],
+  "author": "Codex",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^8.0.10"
+  }
+}
